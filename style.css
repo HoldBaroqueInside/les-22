@@ -1,0 +1,61 @@
+[class*='container']{
+    width:100%;
+}
+@media only screen and 
+    (min-width: 576px) {
+[class*='container'] {
+float:left;
+padding-top:4px;
+padding-bottom:4px;
+    }
+
+}
+    img {
+        width: 300px;
+        height: 300px;
+        padding-bottom:4px;
+    }
+.navbar{
+    padding:20px;
+    color:white;
+    overflow:hidden;
+    background-color:green;
+}
+.navbar a{
+    float:left;
+    font: size 16px;
+    color:white;
+    text-align: center;
+    padding:14px 16px;
+    text-decoration: none;
+}
+.subnav .subnavbtn {
+    font: size 16px;
+    border:none;
+    outline:none;
+    color:white;
+    padding:14px 16px;
+    background-color:inherit;
+    margin:0;
+}
+.navbar a:hover{
+background-color:darkgreen;
+}
+.subnav:hover{
+    display:block;
+}
+p{
+    padding-left:10px;
+}
+form{
+    padding-left:10px;
+}
+
+header{
+    min-height:50px;
+}
+footer{
+    min-height:200px;
+    text-align:center;
+    font-size:small
+}
